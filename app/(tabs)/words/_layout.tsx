@@ -5,7 +5,6 @@ export default function WordsLayout() {
       screenOptions={{
         headerStyle: { backgroundColor: "#fff" },
         headerTintColor: "#000",
-        headerShown: false,
       }}
     ></Stack>
   );

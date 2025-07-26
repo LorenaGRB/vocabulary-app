@@ -26,6 +26,7 @@ export default function TabLayout() {
         name="words"
         options={{
           title: "Words",
+          headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
               name={focused ? "list" : "list-outline"}
